@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link href="estilo.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="PagLogin">
+            <div class="TituloLogin">
+                <h1>Faça login</h1>
+            </div>
+            <div class="FormLogin">
+            <p class="user">Nome de Usuário: </p>  
+            <p class="pass">Senha:</p>
+            <form method="POST" action="validacao.php"> 
+                    <input type="password" name="pass" placeholder="Sua senha" required>
+                    <input type="text" name="user" placeholder="Seu Usuário" required>
+                    <input type="submit" name="btnEnviar" value="Enviar">
+            </form>
+            </div>
+        </div>
+    </body>
+</html>
