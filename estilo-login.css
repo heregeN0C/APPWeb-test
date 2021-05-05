@@ -1,0 +1,27 @@
+.FormLogin{
+    align-items: center;
+    text-align: center;
+}
+.TituloLogin{
+    text-align: center;
+}
+.pagInicial{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pInicial{
+    font-size: 20px;
+}
+.listaInicial{
+  box-sizing: content-box;  
+  padding-left: 820px;
+  padding-right: 820px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-top-width: 500px;
+  background-color: lightgoldenrodyellow;
+  text-emphasis-color: lightblue;
+  font-size: 20px;  
+
+}
