@@ -1,0 +1,1 @@
+import 'View/bootstrap/js/bootstrap.js';

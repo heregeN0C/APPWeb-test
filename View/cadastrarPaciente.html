@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Paciente</title>
+    <link href="estilo.css" rel="stylesheet"> 
+</head>
+<body>
+    <div class="formCadastro">
+        <form method="POST" action="../Model/cad.php">
+            <h2>Insira as informações do novo paciente abaixo:</h2>
+            <p>Nome: <input type="text" name="NomePaciente" placeholder="Nome do Paciente"></p>
+            <p>CPF: <input type="number" name="cpfPaciente" placeholder="Cpf do Paciente"></p>
+            <p>Endereço: <input type="text" name="enderecoPaciente" placeholder="Endereço"></p>
+            <p>Telefone/Celular: <input type="text" name="telefonePaciente" placeholder="Telefone para contato"></p>
+            <input type="submit" name="btnCadastrar" value="Cadastrar">
+        </form>
+    </div>
+    <script src="lib/bootstrap-5.0.0-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

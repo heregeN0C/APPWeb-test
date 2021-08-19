@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Pacientes</title>
+    <link href="estilo.css" rel="stylesheet"> 
+</head>
+<body>
+    <div id="texto"></div>
+        <script>
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function(){
+            if(this.readyState==4 && this.status==200){
+                var result = JSON.parse(this.responseText);
+                document.getElementById("texto").innerHTML
+            }
+        };
+        xmlhttp.open("GET", "../Model/listar_pacientes.php", true);
+        xmlhttp.send;
+        </script>
+
+        <script src="lib/bootstrap-5.0.0-dist/js/bootstrap.bundle.js"></script>
+    </body>
+</html>
