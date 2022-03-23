@@ -7,32 +7,49 @@
     </head>
     <body>
         <main style="text-align: center;">
-            <div class="row g-4">
-                <div class="col-md-8 col-lg-6">
-                    <h4 class="mb-3">CADASTRO DE EQUIPAMENTO</h4>
-                <form class="needs-validation" method="post" action="">
-                    <div class="row g-3">
-                        <div class="col-sm-6">
-                            <label for="tipo_equipamento" class="form-label">Tipo de Equipamento</label>
-                            <input type="text" class="form-control" id="tipo_equipamento">
+            <div id="col-lat" style="padding-left: 100px; padding-right: 100px;padding: top 100px;padding-bottom:10%;background-color:aquamarine">
+                <div class="row g-4" style="padding-left: 100px; padding-right: 100px;padding: top 200px;padding-bottom:400px;background-color:aliceblue">
+                    <div class="col-md-12 col-lg-10" style="padding-top: 100px;">
+                        <h4 class="mb-3">CADASTRO DE EQUIPAMENTO</h4>
+                    <form class="needs-validation" method="post" action="">
+                        <div class="row g-3">
+                            <div class="col-sm-6">
+                                <label for="tipo_equipamento" class="form-label">Tipo de Equipamento</label>
+                                <input type="text" class="form-control" id="tipo_equipamento">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="marca_equipamento" class="form-label">Marca/Fabricante</label>
+                                <input type="text" class="form-control" id="marca_equipamento">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="modelo_equipamento" class="form-label">Modelo do Equipamento</label>
+                                <input type="text" class="form-control" id="modelo_equipamento">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="num_serie_equipamento" class="form-label">Nº de Série</label>
+                                <input type="text" class="form-control" id="num_serie_equipamento">
+                            </div>
+                            <div class="col-sm-6">
+                                <label for="nome_atendente" class="form-label">Atendente/Responsável</label>
+                                <input type="text" class="form-control" id="nome_atendente">
+                            </div>
+                            <div class="col-sm-4">
+                                <label for="data_chegada" class="form-label">Data de Chegada</label>
+                                <input type="datetime-local" class="form-control" id="data_chegada">
+                            </div>
+                            <div class="row g-2 col-12">
+                                <label for="solicitacoes_equipamento" class="form-label">Solicitações Exigidas</label>
+                                <textarea class="form-control" id="solicitacoes_equipamento" rows="3"></textarea>
+                            </div>
+                            <div class="col-sm-5">
+                                <button type="submit" id="confirm-cad" class="btn btn-primary btn-lg">Cadastrar ativo</button>
+                            </div>
+                            <div class="col-sm-5">
+                                <a href="../index.html" class="btn btn-secondary btn-lg" role="button" tableindex="-1">Voltar ao Menu</a>
+                            </div>
                         </div>
-                        <div class="col-sm-6">
-                            <label for="modelo_equipamento" class="form-label">Modelo do Equipamento</label>
-                            <input type="text" class="form-control" id="modelo_equipamento">
-                        </div>
-                        <div class="col-sm-3">
-                            <label for="data_chegada" class="form-label">Data de Chegada</label>
-                            <input type="datetime-local" class="form-control" id="data_chegada">
-                        </div>
-                        <div class="row g-2 col-12">
-                            <label for="solicitacoes_equipamento" class="form-label">Solicitações Exigidas</label>
-                            <input type="text" class="form-control" id="solicitacoes_equipamento">
-                        </div>
-                        <div class="col-sm-5">
-                            <button type="submit" id="confirm-cad" class="btn btn-primary btn-lg">Cadastrar ativo</button>
-                        </div>
+                    </form>
                     </div>
-                </form>
                 </div>
             </div>
         </main>
