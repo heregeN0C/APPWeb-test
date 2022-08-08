@@ -1,4 +1,0 @@
-8.8.8.8
-www.google.com
-www.bb.com.br
-187.45.180.10
